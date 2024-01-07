@@ -1,4 +1,4 @@
-package org.generation.lesson.bestoftheyear;
+package org.generation.lesson;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
