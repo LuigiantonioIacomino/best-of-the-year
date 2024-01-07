@@ -9,9 +9,10 @@
 </head>
 <body>
 <ul>
-    <li th:each="current : ${lista}" th:text="${current.titolo}">
-
+    <li th:each="current : ${lista}">
+        <a th:href="@{songs/details(id=${current.id})}" th:text="${current.titolo}"></a>
     </li>
+    <a th:href="@{/}">torna alla home</a>
 </ul>
 </body>
 </html>
